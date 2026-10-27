@@ -4,13 +4,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
+import Header from './components/Header'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    
+      <Navbar />
+      <Header />
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
